@@ -1,0 +1,13 @@
+.descricao-produto{
+    background-color: orange;
+    color: aliceblue;
+}
+
+.promocao{
+    border: solid 10px green;
+}
+
+/*
+ID deve ser único
+ID não foi feito pra ta aos milhares nas paginas
+*/

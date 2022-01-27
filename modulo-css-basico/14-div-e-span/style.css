@@ -1,0 +1,18 @@
+.produto{
+    background-color: aqua;
+    color: red;
+}
+
+/* .produto span{
+    font-size: 24px;
+    color: royalblue;
+} */
+
+.destaque{
+    font-size: 24px;
+    color: brown;
+}
+
+/*
+span é inline level
+*/

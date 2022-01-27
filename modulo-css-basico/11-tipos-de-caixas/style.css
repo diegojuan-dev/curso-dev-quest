@@ -1,0 +1,13 @@
+span{
+    color: coral;
+
+    display: block;
+
+    width: 200px;
+    height: 200px;
+}
+
+/*
+display block, quebra a linha (ocupa largura total da tela) div | h1 | paragrafo
+display inline não mexe na linha () span | ancora
+*/
