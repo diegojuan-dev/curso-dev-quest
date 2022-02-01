@@ -1,7 +1,27 @@
-.container-cascata{
+/* Efeito Cascata */
+
+/* .container-cascata{
     background-color: aqua;
 }
 
-/* .containe-cascata{
+.container-cascata{
     background-color: orange;
 } */
+
+
+/* Especificidade */
+/* Para mover, seleciona e usa ALT + tecla pra cima ou pra baixo */
+
+#meu-paragrafo{
+    background-color: violet;
+}
+
+.container-especificidade p{
+    background-color: chartreuse;
+}
+
+p{
+    background-color: lightskyblue;
+}
+
+
