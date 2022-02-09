@@ -9,3 +9,8 @@ p{
     background-color: aqua;
     border: solid 5px green;
 }
+
+xmp{
+    color: blue;
+    border: solid 3px black;
+}
