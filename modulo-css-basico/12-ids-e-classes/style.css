@@ -1,10 +1,10 @@
 .descricao-produto{
     background-color: orange;
-    color: aliceblue;
+    color: white;
 }
 
 .promocao{
-    border: solid 10px green;
+    border: solid 3px black;
 }
 
 /*
