@@ -34,3 +34,18 @@ body{
 .cabecalho ul li a:hover{
     font-weight: bold;
 }
+
+.painel{
+    background: url(../image/painel.jpg) center center no-repeat;
+    height: 600px;
+}
+
+.painel h2{
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
