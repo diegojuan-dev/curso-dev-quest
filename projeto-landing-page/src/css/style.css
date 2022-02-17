@@ -53,6 +53,7 @@ body{
 .secao-com-texto{
     padding: 153px;
     text-align: center;
+    clear: both;        /* a imagem descola da seção abaixo  */
 }
 
 .secao-com-texto img{
@@ -76,4 +77,32 @@ body{
 .secao-com-texto.onde-estamos p{
     font-size: 28px;
     width: 300px;
+}
+
+.ladrilho div{
+    float: left;
+}
+
+.ladrilho .grande{
+    background: url(../image/4.jpg) center center no-repeat;
+    height: 600px;
+    width: 50%;
+}
+
+.ladrilho .pequeno{
+    background: url(../image/3.jpg) center center no-repeat;
+    height: 300px;
+    width: 25%;
+}
+
+.ladrilho .pequeno.grao{
+    background: url(../image/2.jpg) center center no-repeat;
+    height: 300px;
+    width: 25%;
+}
+
+.ladrilho .medio{
+    background: url(../image/1.jpg) center center no-repeat;
+    height: 300px;
+    width: 50%; 
 }
