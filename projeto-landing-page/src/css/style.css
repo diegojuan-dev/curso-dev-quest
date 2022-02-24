@@ -1,6 +1,11 @@
+html{
+    font-size: 62.5%;
+}
+
 body{
     max-width: 1440px;
     margin: 0 auto;
+    font-size: 1.6rem;
 }
 
 .cabecalho{
@@ -35,6 +40,8 @@ body{
 .cabecalho ul li a:hover{
     font-weight: bold;
 }
+
+/*------------------------------------------------------*/
 
 .painel{
     background: url(../image/painel.jpg) center center no-repeat;
@@ -80,6 +87,8 @@ body{
     width: 300px;
 }
 
+/*------------------------------------------------------*/
+
 .ladrilho div{
     float: left;
 }
@@ -107,6 +116,8 @@ body{
     height: 300px;
     width: 50%; 
 }
+
+/*------------------------------------------------------*/
 
 .contato{
     background: url(../image/fundo-contato.jpg) center center no-repeat;
@@ -136,6 +147,8 @@ body{
     top: 30%;
     left: 50%;
 }
+
+/*------------------------------------------------------*/
 
 .rodape{
     background: url(../image/fundo-rodape.jpg) center center no-repeat;
