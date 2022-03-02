@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+}
+
+.primeiro-texto{
+    background: #F5F5F5;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.segundo-texto{
+    background: #F0CCE2;
+    padding: 20px;
+}
