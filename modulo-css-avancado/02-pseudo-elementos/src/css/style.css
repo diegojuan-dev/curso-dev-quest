@@ -1,0 +1,47 @@
+
+/*
+    1-ESTILIZANDO A PRIMEIRA LETRA DO PARÁGRAFO 
+    2-ESTILIZANDO A PRIMEIRA LINHA DO PARÁGRAFO 
+    3-ESTILIZANDO PRIMEIRA LETRA E PRIMEIRA LINHA DO PARÁGRAFO
+*/
+
+ .first-letter::first-letter{
+     color: blue;
+ }
+
+ .first-line::first-line{
+     color: blueviolet;
+ }
+
+ .first-line::first-letter{
+    color: black;
+}
+
+/*
+    1- ESTILIZANDO OS MARCADORES DA LISTA
+*/
+
+li::marker{
+    color: red;
+    font-size: 40px;
+}
+
+/*
+    COLOCANDO UMA IMAGEM ANETS DE VÁRIOS ELEMENTOS AO MEMSO TEMPO
+*/
+
+h2::before{
+    content: url(../img/logo.jpg);
+}
+
+.titulo-background::before{
+    content: "";
+    background: url(../img/logo.jpg) center center no-repeat;
+    display: inline-block;
+    width: 85px;
+    height: 85px;
+}
+
+h3::after{
+    content: url(../img/logo.jpg);
+}
