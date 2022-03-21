@@ -1,0 +1,21 @@
+p:first-child{
+    color: blueviolet;
+}
+
+p:last-child{
+    color: burlywood;
+}
+
+p:not(.padrao){
+    color: chartreuse;
+}
+
+p:nth-child(odd){
+    color: red;
+}
+/* even = par
+odd = impar */
+
+li:nth-child(odd){
+    color: brown;
+}
