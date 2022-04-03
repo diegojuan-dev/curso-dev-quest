@@ -1,0 +1,48 @@
+h1{
+    color: green;
+}
+
+.paragrafo{
+    color: blue;
+}
+
+#menu{
+    color: red;
+}
+
+*{
+    padding: 0;
+}
+
+.titulo{
+    font-size: 30px;
+}
+
+.titulo.vermelho{
+    color: red;
+}
+
+.titulo.laranja{
+    color: orange;
+} 
+
+p, span{
+    font-size: 50px;
+}
+
+.sobre .texto{
+    color: chocolate;
+}
+
+/* classe filha */
+div > p{
+    color: cadetblue;
+}
+
+div + p{
+    font-size: 10px;
+}
+
+a[target=_blank]{
+    color: red;
+}
